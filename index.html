@@ -1,0 +1,189 @@
+
+<button onclick = "op();"> click me maureen</button>
+
+
+<script>
+function op(){
+alert("welcome maureen. i was by my master: ikomi tina henry")
+
+var henry = new SpeechSynthesisUtterance();
+henry.text = "welcome maureen. i was by my master: ikomi tina henry. please ask me some few questions about yourself. like favourite food, color, music etc"
+ window.speechSynthesis.speak(henry)
+ 
+ var ikom = prompt("speak  to me here: ")
+ 
+ 
+ if(ikom.includes("colour")){
+ alert("it is : Black")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : Black"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : Black"
+ 
+ }else if(ikom.includes("Colour")){
+ alert("it is Black:")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : Black"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : Black "
+ 
+ }else if(ikom.includes("music")){
+ alert("it is : yami alade")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " It  is : yami alade"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is :yami alade "
+ 
+ }else if(ikom.includes("Music")){
+ alert("it is : yami alade")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " It  is : yami alade"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : yami alade "
+ 
+ }else if(ikom.includes("song")){
+ alert("it is : yami alade")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " It  is : yami alade "
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : yami alade "
+ 
+ }else if(ikom.includes("Song")){
+ alert("it is : yami alade")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " It  is : "
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : yami alade"
+ 
+ }else if(ikom.includes("movie")){
+ alert(" it is :  Bright star in the sky")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " it is :  Bright star in the sky"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is :  Bright star in the sky"
+ 
+ }else if(ikom.includes("Movie")){
+ alert(" it is :  Bright star in the sky")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " it is :  Bright star in the sky"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is :  Bright star in the sky"
+ }else if(ikom.includes("Video")){
+ alert(" it is :  Bright star in the sky")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " it is : Bright star in the sky "
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is :  Bright star in the sky"
+ 
+ }else if(ikom.includes("video")){
+ alert(" it is :  Bright star in the sky")
+  henry = new SpeechSynthesisUtterance();
+henry.text = " it is : Bright star in the sky "
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is :  Bright star in the sky"
+ 
+ }else if(ikom.includes("hobby")){
+ alert(" it is : hand ball")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : hand ball"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : hand ball"
+ 
+ }else if(ikom.includes("Hobby")){
+ alert(" it is : hand ball")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : hand ball"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : hand ball"
+ 
+ }
+else if(ikom.includes("car")){
+ alert(" it is : ferari")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : ferari"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : ferari"
+ 
+ } else if(ikom.includes("Car")){
+ alert(" it is : ferari")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : ferari"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : ferari"
+ 
+ }else if(ikom.includes("food")){
+ alert(" it is : egg and rice")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : egg and rice"
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : egg and rice"
+ 
+ }else if(ikom.includes("Food")){
+ alert(" it is : egg and rice")
+  henry = new SpeechSynthesisUtterance();
+henry.text = "it is : egg and rice "
+ window.speechSynthesis.speak(henry)
+ 
+ document.getElementById("le").innerHTML = " USER  : " + ikom
+ document.getElementById("let").innerHTML = " HENRY  : it is : egg and rice "
+ 
+ }else{
+ 
+ alert("sorry, i was not programed by henry to responed to such questions. if you want me to answer you, contact henry and have a word with him")
+   henry = new SpeechSynthesisUtterance();
+henry.text = " sorry, i was not programed by henry to responed to such questions. if you want me to answer you, contact henry and have a word with him "
+ window.speechSynthesis.speak(henry)
+ 
+ }
+ 
+ }
+ 
+ 
+ 
+ 
+</script>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<b id = "le"></b>
+<br />
+<br />
+<br />
+<b id = "let"></b>
